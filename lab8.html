@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Image Grid</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Responsive Image Grid</h1>
+        <p>All image are stock photos.</p>
+    </header>
+
+    <section id="filter-buttons">
+        <button data-category="all">All</button>
+        <button data-category="nature">Nature</button>
+        <button data-category="sea">Sea</button>
+        <button data-category="people">People</button>
+    </section>
+
+    <section id="gallery">
+        <div class="gallery-item nature"><img src="https://media.istockphoto.com/id/155170343/photo/black-and-white-photo-of-bowman-lake.jpg?s=612x612&w=0&k=20&c=q51Jh9GuFs2x24aaPtYN9OOzFiTpq2TIkFyUcrGz4XU=" alt="Nature Image 1"></div>
+        <div class="gallery-item sea"><img src="https://i.etsystatic.com/6246936/r/il/b7896b/1753774901/il_570xN.1753774901_fmcs.jpg" alt="Sea Image 1"></div>
+        <div class="gallery-item people"><img src="https://cc-prod.scene7.com/is/image/CCProdAuthor/black-and-white-portrait-photography_P6b_720x460?$pjpeg$&jpegSize=200&wid=690" alt="People Image 1"></div>
+        <div class="gallery-item nature"><img src="https://blackwhite.pictures/media/t/0101/africa-close-up-animal-head-nature-animals-in-the-wild-animal-giraffe-3746.jpg" alt="Nature Image 2"></div>
+        <div class="gallery-item sea"><img src="https://storage.needpix.com/rsynced_images/sea-2373806_1280.jpg" alt="Sea Image 2"></div>
+        <div class="gallery-item people"><img src="https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2015/12/bw_photography_3_tips_cover.jpg" alt="People Image 2"></div>
+        <div class="gallery-item nature"><img src="https://images.squarespace-cdn.com/content/v1/538a3874e4b0ab1541d204ad/1486438541150-8MZDLYR7KCX10TA7P7WA/image-asset.jpeg" alt="Nature Image 3"></div>
+        <div class="gallery-item sea"><img src="https://www.creative-photographer.com/wp-content/uploads/2016/11/texture-black-white-landscape-10.jpg" alt="Sea Image 1"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
